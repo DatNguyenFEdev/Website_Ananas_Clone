@@ -1,0 +1,407 @@
+/* =================tablet======================== */
+
+@media only screen and (max-width: 1024px) {
+  /* ====================================footer===================== */
+  #footer-mobile {
+    display: block !important;
+    background-color: #4c4c4c;
+    padding-bottom: 30px;
+  }
+  #footer-mobile p {
+    padding: 30px 30px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .infor-company {
+    /* background-color: green; */
+    width: 100%;
+  }
+  #footer-mobile .infor-company > li {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px dashed rgba(153, 153, 153, 0.556);
+  }
+  .infor-company li a {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .ananas-socials {
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .ananas-socials li {
+    padding-right: 44px;
+  }
+  .ananas-socials li a {
+    width: auto;
+    height: 90px;
+  }
+  .ananas-socials img {
+    /* min-width: 70px; */
+    width: 90px;
+    height: auto;
+  }
+  #footer-mobile > form {
+    padding: 0 10px;
+    position: relative;
+  }
+  #footer-mobile form input {
+    padding: 40px;
+    height: 110px;
+    width: 80%;
+    border: none;
+    font-size: 40px;
+  }
+  #footer-mobile form button {
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: #303030;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  #footer-mobile form button img {
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    object-fit: cover;
+  }
+  #footer-mobile .find-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    margin: 40px auto;
+    height: 110px;
+    /* padding:  40px 80px; */
+    font-weight: bold;
+    border: 1px solid #f15e2c;
+    background-color: #f15e2c;
+  }
+  #footer-mobile .find-store a {
+    display: block;
+    width: auto;
+    font-size: 30px;
+    color: #fff;
+  }
+  .backtop {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    font-size: 36px;
+  }
+  .backtop a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .backtop a > img {
+    width: 50px;
+    height: auto;
+  }
+  #footer-mobile > p:last-child {
+    display: flex;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  .p-copy {
+    display: inline-block;
+    padding: 70px 0 !important;
+    font-size: 34px !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    display: flex;
+    justify-content: center;
+    color: #808080 !important;
+  }
+  .certification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* =================tablet======================== */
+
+/* =================mobile-large======================== */
+
+@media only screen and (max-width: 768px) {
+  /* ====================================footer===================== */
+  #footer-mobile {
+    display: block;
+    background-color: #4c4c4c;
+    padding-bottom: 30px;
+  }
+  #footer-mobile p {
+    padding: 30px 30px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .infor-company {
+    /* background-color: green; */
+    width: 100%;
+  }
+  #footer-mobile .infor-company > li {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px dashed rgba(153, 153, 153, 0.556);
+  }
+  .infor-company li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .ananas-socials {
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .ananas-socials li {
+    padding-right: 24px;
+  }
+  .ananas-socials li a {
+    width: auto;
+    height: 50px;
+  }
+  .ananas-socials img {
+    /* min-width: 70px; */
+    width: 50px;
+    height: auto;
+  }
+  #footer-mobile > form {
+    padding: 0 10px;
+    position: relative;
+  }
+  #footer-mobile form input {
+    padding: 20px;
+    height: 66px;
+    width: 80%;
+    border: none;
+    font-size: 40px;
+  }
+  #footer-mobile form button {
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: #303030;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  #footer-mobile form button img {
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    object-fit: cover;
+  }
+  #footer-mobile .find-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    margin: 40px auto;
+    height: 66px;
+    /* padding:  40px 80px; */
+    font-weight: bold;
+    border: 1px solid #f15e2c;
+    background-color: #f15e2c;
+  }
+  #footer-mobile .find-store a {
+    display: block;
+    width: auto;
+    font-size: 14px;
+    color: #fff;
+  }
+  .backtop {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    font-size: 26px;
+  }
+  .backtop > a {
+    display: inline-block;
+    margin-right: 14px;
+  }
+  .backtop a > img {
+    width: 40px;
+    height: auto;
+  }
+  #footer-mobile > p:last-child {
+    display: flex;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  .p-copy {
+    display: inline-block;
+    padding: 50px 0 !important;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    display: flex;
+    justify-content: center;
+    color: #808080 !important;
+  }
+  .certification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* =================mobile-large======================== */
+
+/* =================mobile-small======================== */
+
+@media only screen and (max-width: 479px) {
+  /* ====================================footer===================== */
+  #footer-mobile {
+    display: block;
+    background-color: #4c4c4c;
+    padding-bottom: 20px;
+  }
+  #footer-mobile p {
+    padding: 30px 12px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .infor-company {
+    /* background-color: green; */
+    width: 100%;
+  }
+  #footer-mobile .infor-company > li {
+    display: flex;
+    align-items: center;
+    padding: 26px 12px;
+    border-bottom: 1px dashed rgba(153, 153, 153, 0.556);
+  }
+  .infor-company li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .ananas-socials {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .ananas-socials li {
+    padding-right: 16px;
+  }
+  .ananas-socials li a {
+    width: auto;
+    height: 40px;
+  }
+  .ananas-socials img {
+    /* min-width: 70px; */
+    width: 40px;
+    height: auto;
+  }
+  #footer-mobile > form {
+    padding: 0 10px;
+    position: relative;
+  }
+  #footer-mobile form input {
+    padding: 4px;
+    height: 46px;
+    width: 80%;
+    border: none;
+    font-size: 20px;
+  }
+  #footer-mobile form button {
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: #303030;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  #footer-mobile form button img {
+    vertical-align: middle;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    object-fit: cover;
+  }
+  #footer-mobile .find-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    margin: 40px auto;
+    height: 46px;
+    /* padding:  40px 80px; */
+    font-weight: bold;
+    border: 1px solid #f15e2c;
+    background-color: #f15e2c;
+  }
+  #footer-mobile .find-store a {
+    display: block;
+    width: auto;
+    font-size: 14px;
+    color: #fff;
+  }
+  .backtop {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    font-size: 16px;
+  }
+  .backtop > a {
+    display: inline-block;
+    margin-right: 14px;
+  }
+  .backtop a > img {
+    width: 30px;
+    height: auto;
+  }
+  #footer-mobile > p:last-child {
+    display: flex;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  .p-copy {
+    display: inline-block;
+    padding: 30px 0 !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    display: flex;
+    justify-content: center;
+    color: #808080 !important;
+  }
+  .certification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* =================mobile-small======================== */

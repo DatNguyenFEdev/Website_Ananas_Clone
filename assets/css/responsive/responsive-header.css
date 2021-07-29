@@ -1,0 +1,365 @@
+/* =================tablet======================== */
+@media only screen and (max-width: 1024px) {
+/* ============================================================ header=================================================================*/
+    #header {
+        width: 100%;
+        height: auto;
+    }
+    #nav {
+        display: none;
+    }
+
+    /* ===================menu=================== */
+    #menu {
+        display:none;
+    }
+    .logo-ananas {
+        display: inline-block;
+    }
+    .logo-ananas img {
+        vertical-align: middle;
+    }
+
+    /* ==================hamburger menu========================== */
+    #hamburger-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #hamburger-menu ul {
+        display: flex;
+        justify-content: center;
+    }
+    #hamburger-menu .logo-ananas {
+        margin-left: 0;
+        padding: 0 120px;
+        height: 130px;
+        border-right: 1px solid rgba(153, 153, 153, 0.234);
+        align-items: center;
+        display: flex;
+    }
+    #hamburger-menu ul li {
+        display: flex;
+        padding: 0 24px;
+    }
+    #hamburger-menu ul li a {
+        width: 50px;
+        height: 60px;
+        
+    }
+    #hamburger-menu >ul li img {
+        display: block;
+        object-fit: cover;
+        max-width: 60px;
+        height: 60px;
+    }
+    #hamburger-menu >ul >li a span {
+        display: inline-block;
+
+    }
+    #hamburger-menu .btn-bar-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+        width: 160px;
+        background-color: #4c4c4c;
+        text-align: center;
+        
+    }
+    .btn-bar-menu i {
+        display: inline-block;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    /* ====================================slider=========================================== */
+    .slider {
+        background-color: #F1F1F1;
+    }
+    .news-hot {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .news-hot div {
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .news-hot .slick-prev {
+        margin-top: -8px;
+        background-image: url(../images/arrows/arr_right.png);
+        -webkit-transform:rotate(180deg);
+        -moz-transform:rotate(180deg);
+        width: 8px;
+        height: 12px;
+    }
+    .news-hot .slick-next {
+        background-image: url(../images/arrows/arr_right.png);
+        width: 8px;
+        height: 12px;
+    }
+    /* ====================================slider=========================================== */
+    .slider {
+        background-color: #F1F1F1;
+    }
+    .news-hot {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .news-hot div >a {
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: hidden;
+    }
+}
+/* =================tablet======================== */
+
+
+/* =================mobile-large======================== */
+@media only screen and (max-width: 768px) {
+    /* ============================================================ header=================================================================*/
+        #header {
+            width: 100%;
+            height: auto;
+        }
+        #nav {
+            display: none;
+        }
+    
+        /* ===================menu=================== */
+        #menu {
+            display:none;
+        }
+        .logo-ananas {
+            display: inline-block;
+        }
+        .logo-ananas img {
+            vertical-align: middle;
+        }
+    
+        /* ==================hamburger menu========================== */
+        #hamburger-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 104px;
+        }
+        #hamburger-menu ul {
+            display: flex;
+            justify-content: center;
+        }
+        #hamburger-menu .logo-ananas {
+            margin-left: 0;
+            padding: 0 40px;
+            height: auto;
+            width: auto;
+            border-right: 1px solid rgba(153, 153, 153, 0.234);
+            display: flex;
+        }
+        #hamburger-menu .logo-ananas a {
+            display: inline-block;
+            height: auto;
+            width: 40px;
+        }
+        #hamburger-menu ul li {
+            display: flex;
+            padding: 0 24px;
+        }
+        #hamburger-menu ul li a {
+            width: 46px;
+            height: 46px;
+            
+        }
+        #hamburger-menu >ul li img {
+            display: block;
+            object-fit: cover;
+            max-width: 46px;
+            height: 46px;
+        }
+        #hamburger-menu >ul >li a span {
+            display: inline-block;
+    
+        }
+        #hamburger-menu .btn-bar-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 104px;
+            background-color: #4c4c4c;
+        }
+        .btn-bar-menu i {
+            display: inline-block;
+            text-align: center;
+            font-size: 36px;
+            color: white;
+        }
+        /* ====================================slider=========================================== */
+        .slider {
+            background-color: #F1F1F1;
+        }
+        .news-hot {
+            max-width: 50%;
+            margin: 0 auto;
+        }
+        .news-hot div {
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .news-hot .slick-prev {
+            margin-top: -8px;
+            background-image: url(../images/arrows/arr_right.png);
+            -webkit-transform:rotate(180deg);
+            -moz-transform:rotate(180deg);
+            width: 8px;
+            height: 12px;
+        }
+        .news-hot .slick-next {
+            background-image: url(../images/arrows/arr_right.png);
+            width: 8px;
+            height: 12px;
+        }
+        /* ====================================slider=========================================== */
+        .slider {
+            background-color: #F1F1F1;
+        }
+        .news-hot {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        .news-hot div >a {
+            white-space: nowrap;
+            overflow-x: hidden;
+            text-overflow: hidden;
+        }
+    }
+    /* =================mobile-large======================== */
+
+    /* =================mobile-small======================== */
+@media only screen and (max-width: 479px) {
+    /* ============================================================ header=================================================================*/
+        #header {
+            width: 100%;
+            height: auto;
+        }
+        #nav {
+            display: none;
+        }
+    
+        /* ===================menu=================== */
+        #menu {
+            display:none;
+        }
+        .logo-ananas {
+            display: inline-block;
+        }
+        .logo-ananas img {
+            vertical-align: middle;
+        }
+    
+        /* ==================hamburger menu========================== */
+        #hamburger-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        #hamburger-menu ul {
+            display: flex;
+            justify-content: center;
+        }
+        #hamburger-menu .logo-ananas {
+            margin-left: 0;
+            padding: 0 30px;
+            height: auto;
+            width: auto;
+            border-right: 1px solid rgba(153, 153, 153, 0.234);
+            display: flex;
+        }
+        #hamburger-menu .logo-ananas a {
+            display: inline-block;
+            height: auto;
+            width: 32px;
+        }
+        #hamburger-menu ul li {
+            display: flex;
+            padding: 0 10px;
+        }
+        #hamburger-menu ul li a {
+            width: 32px;
+            height: 32px;
+            
+        }
+        #hamburger-menu >ul li img {
+            display: block;
+            object-fit: cover;
+            max-width: 30px;
+            height: 32px;
+        }
+        #hamburger-menu >ul >li a span {
+            display: inline-block;
+    
+        }
+        #hamburger-menu .btn-bar-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            width: 70px;
+            background-color: #4c4c4c;
+        }
+        .btn-bar-menu >i {
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+        /* ====================================slider=========================================== */
+        .slider {
+            background-color: #F1F1F1;
+        }
+        .news-hot {
+            max-width: 50%;
+            margin: 0 auto;
+        }
+        .news-hot div {
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .news-hot .slick-prev {
+            margin-top: -8px;
+            background-image: url(../images/arrows/arr_right.png);
+            -webkit-transform:rotate(180deg);
+            -moz-transform:rotate(180deg);
+            width: 8px;
+            height: 12px;
+        }
+        .news-hot .slick-next {
+            background-image: url(../images/arrows/arr_right.png);
+            width: 8px;
+            height: 12px;
+        }
+        /* ====================================slider=========================================== */
+        .slider {
+            background-color: #F1F1F1;
+        }
+        .news-hot {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        .news-hot div >a {
+            white-space: nowrap;
+            overflow-x: hidden;
+            text-overflow: hidden;
+        }
+    }
+    /* =================mobile-small======================== */
+
+        /* ====================galaxy fold===================== */
+@media only screen and (max-width: 280px) {
+    /* ============================================================ header=================================================================*/
+        #hamburger-menu ul li {
+            display: flex;
+            padding: 0;
+        }
+    }
+    /* =================galaxy fold======================== */

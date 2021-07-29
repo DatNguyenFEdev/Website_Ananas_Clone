@@ -1,0 +1,261 @@
+/* ===================================================RESSET======================================================== */
+/* ===============tablet============== */
+    @media only screen and (max-width: 1024px) {
+        /* ============================css library slick======================== */
+    .slick-slide {
+        position: relative;
+        line-height: 50px;
+    }
+    .slick-arrow {
+        width: 40px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        outline: none;
+        border: none;
+        background-color: red;
+        color: black;
+        visibility: hidden;
+    }
+    .slick-prev {
+        left: -40px;
+        
+    }
+    .slick-next {
+        right: -40px;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+    .slick-dots li {
+        padding: 0 6px;
+    }
+    .slick-dots li button {
+        width: 40px;
+        height: 4px;
+        color: transparent;
+        border: none;
+    }
+    .slick-active button {
+        
+        background-color: rgb(241, 94, 44);
+    }
+    /* ===================== */
+    .slick-arrow {
+        cursor: pointer;
+        color: transparent;
+        background:transparent;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* ===========================================reset css============================ */
+    .wrap {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .inner-wrap {
+        width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    /* ====================================footer===================== */
+    #footer {
+        display: none;
+    }
+    /* ====================================cart===================== */
+    #cards {
+        display: none;
+    }
+    }
+    /* ===============tablet============== */
+
+
+    /* ===============mobile-large============== */
+    @media only screen and (max-width: 768px) {
+        /* ============================css library slick======================== */
+    .slick-slide {
+        position: relative;
+        line-height: 50px;
+    }
+    .slick-arrow {
+        width: 40px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        outline: none;
+        border: none;
+        background-color: red;
+        color: black;
+        visibility: hidden;
+    }
+    .slick-prev {
+        left: -40px;
+        
+    }
+    .slick-next {
+        right: -40px;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+    .slick-dots li {
+        padding: 0 6px;
+    }
+    .slick-dots li button {
+        width: 40px;
+        height: 4px;
+        color: transparent;
+        border: none;
+    }
+    .slick-active button {
+        
+        background-color: rgb(241, 94, 44);
+    }
+    /* ===================== */
+    .slick-arrow {
+        cursor: pointer;
+        color: transparent;
+        background:transparent;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* ===========================================reset css============================ */
+    .wrap {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .inner-wrap {
+        width: 100%;
+        min-width:100%;
+        margin: 0 auto;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    /* ====================================footer===================== */
+    #footer {
+        display: none;
+    }
+    /* ====================================cart===================== */
+    #cards {
+        display: none;
+    }
+    }
+    /* ===============mobile-large============== */
+
+    /* ===============mobile-small============== */
+    @media only screen and (max-width: 479px) {
+        /* ============================css library slick======================== */
+    .slick-slide {
+        position: relative;
+        line-height: 50px;
+    }
+    .slick-arrow {
+        width: 40px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        outline: none;
+        border: none;
+        background-color: red;
+        color: black;
+        visibility: hidden;
+    }
+    .slick-prev {
+        left: -40px;
+        
+    }
+    .slick-next {
+        right: -40px;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+    .slick-dots li {
+        padding: 0 6px;
+    }
+    .slick-dots li button {
+        width: 40px;
+        height: 4px;
+        color: transparent;
+        border: none;
+    }
+    .slick-active button {
+        
+        background-color: rgb(241, 94, 44);
+    }
+    /* ===================== */
+    .slick-arrow {
+        cursor: pointer;
+        color: transparent;
+        background:transparent;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* ===========================================reset css============================ */
+    .wrap {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .inner-wrap {
+        width: 100%;
+        /* min-width:280px; */
+        margin: 0 auto;
+    }
+    h3 {
+        font-size: 18px !important;
+        line-height: 22px;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    /* ====================================footer===================== */
+    #footer {
+        display: none;
+    }
+    /* ====================================cart===================== */
+    #cards {
+        display: none;
+    }
+    }
+    /* ===============mobile-small============== */   
+
